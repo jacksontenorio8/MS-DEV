@@ -1,2 +1,3 @@
 # MS-DEV
-Curso Microsoft Developer com C#
+- Curso Microsoft Developer com C#
+- Ministrado pela Ocean Brasil
