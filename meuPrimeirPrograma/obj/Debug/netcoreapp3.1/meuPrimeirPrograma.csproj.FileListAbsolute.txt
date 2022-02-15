@@ -1,0 +1,13 @@
+/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/bin/Debug/netcoreapp3.1/meuPrimeirPrograma
+/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/bin/Debug/netcoreapp3.1/meuPrimeirPrograma.deps.json
+/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/bin/Debug/netcoreapp3.1/meuPrimeirPrograma.runtimeconfig.json
+/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/bin/Debug/netcoreapp3.1/meuPrimeirPrograma.runtimeconfig.dev.json
+/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/bin/Debug/netcoreapp3.1/meuPrimeirPrograma.dll
+/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/bin/Debug/netcoreapp3.1/meuPrimeirPrograma.pdb
+/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/obj/Debug/netcoreapp3.1/meuPrimeirPrograma.csprojAssemblyReference.cache
+/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/obj/Debug/netcoreapp3.1/meuPrimeirPrograma.AssemblyInfoInputs.cache
+/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/obj/Debug/netcoreapp3.1/meuPrimeirPrograma.AssemblyInfo.cs
+/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/obj/Debug/netcoreapp3.1/meuPrimeirPrograma.csproj.CoreCompileInputs.cache
+/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/obj/Debug/netcoreapp3.1/meuPrimeirPrograma.dll
+/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/obj/Debug/netcoreapp3.1/meuPrimeirPrograma.pdb
+/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/obj/Debug/netcoreapp3.1/meuPrimeirPrograma.genruntimeconfig.cache
