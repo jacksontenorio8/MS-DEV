@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace meuPrimeirPrograma
+namespace ProjetoPrimeiro
 {
     class Program
     {

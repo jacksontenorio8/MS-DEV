@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/meuPrimeirPrograma.csproj",
-      "projectName": "meuPrimeirPrograma",
-      "projectPath": "/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/meuPrimeirPrograma.csproj",
+      "projectUniqueName": "/home/jackson/Workspace/MS-DEV/ProjetoPrimeiro/ProjetoPrimeiro.csproj",
+      "projectName": "ProjetoPrimeiro",
+      "projectPath": "/home/jackson/Workspace/MS-DEV/ProjetoPrimeiro/ProjetoPrimeiro.csproj",
       "packagesPath": "/home/jackson/.nuget/packages/",
-      "outputPath": "/home/jackson/Workspace/MS-DEV/meuPrimeirPrograma/obj/",
+      "outputPath": "/home/jackson/Workspace/MS-DEV/ProjetoPrimeiro/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jackson/.nuget/NuGet/NuGet.Config"
