@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace ProjetoPrimeiro
+namespace PrimeroProjeto
 {
     class Program
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Olá Mundo!");
+            Console.WriteLine("Hello World!");
         }
     }
 }
