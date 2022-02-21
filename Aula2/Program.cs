@@ -8,8 +8,9 @@ namespace Aula2
         {
             //Para executar basta tirar o comentário da função desejada
             //POR EXEMPLO: abaixo vai ser executado apenas o inicio
-            inicio();
-            OperadorAritmetico();
+            //inicio();
+            //OperadorAritmetico();
+            Atribuicao();
         }
         static void inicio()
         {
@@ -61,6 +62,37 @@ namespace Aula2
             Console.WriteLine("Multiplicação: " + (numero3 * numero2 * numero1));
             //divisão de todas as variaveis do tipo int
             Console.WriteLine("Divisão: " + (numero3 / numero2));
+        }
+        static void Atribuicao()
+        {
+            //Atribuição
+
+            int a = 10;
+
+            Console.WriteLine(a);
+            Console.WriteLine("-------------------");
+
+            //a = a + 2
+
+            //10 + 2
+            //representa a atribuição de A para => A + 2;
+
+            a += 2;
+
+            Console.WriteLine(a);
+            Console.WriteLine("-------------------");
+
+            //representa a atribuição de ABC para => ABC + DEF
+
+            string palavra = "ABC";
+            palavra += "DEF";
+            Console.WriteLine(palavra);
+
+            //const = não pode mudar
+
+            const string palavra2 = "Jackson";
+            Console.WriteLine(palavra2);
+
         }
     }
 }
