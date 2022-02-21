@@ -10,7 +10,8 @@ namespace Aula2
             //POR EXEMPLO: abaixo vai ser executado apenas o inicio
             //inicio();
             //OperadorAritmetico();
-            Atribuicao();
+            //Atribuicao();
+            OperadorRelacional();
         }
         static void inicio()
         {
@@ -93,6 +94,25 @@ namespace Aula2
             const string palavra2 = "Jackson";
             Console.WriteLine(palavra2);
 
+        }
+        static void OperadorRelacional() 
+        {
+            int a = 10;
+
+            //bool => tipo de variável que armazena informação TRUE ou FALSE.
+            bool c1 = a < 10; //resposta sempre tera TRUE ou FALSE
+
+            bool c2 = a <= 20; //menor igual
+            bool c3 = a >= 10; //maior igual
+
+            bool c4 = a == 10; //a é igual a 10
+            bool c5 = a != 10; //a é diferente 10.
+
+            Console.WriteLine(c1);
+            Console.WriteLine(c2);
+            Console.WriteLine(c3);
+            Console.WriteLine(c4);
+            Console.WriteLine(c5);
         }
     }
 }
