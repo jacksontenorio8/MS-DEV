@@ -6,7 +6,9 @@ namespace Aula3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Para executar basta tirar o comentário da função desejadas
+            //POR EXEMPLO: Abaixo vai ser executado apenas o operadorLogico.
+            
         }
     }
 }
