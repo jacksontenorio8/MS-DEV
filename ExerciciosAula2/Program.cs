@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace ExerciciosAula2
 {
@@ -6,7 +7,8 @@ namespace ExerciciosAula2
     {
         static void Main(string[] args)
         {
-            Exercicio01();
+            //Exercicio01();
+            Exercicio02();
         }
         static void Exercicio01()
         {
@@ -22,10 +24,36 @@ namespace ExerciciosAula2
             double preco2Total = preco2 - 0.5;
             double media = 53.234567;
 
-            Console.WriteLine("Produtos:\n" + produto1 +  ", cujo o preço é $ " + preco1 +",00\n" + produto2 + ", cujo o preço é $ " + preco2Total +",20\n" +"Registro: " + idade + " anos de idade," + " código " + codigo + " e gênero " + genero + "\n" +"Media com oito casas decimais: " + media +"00\n");
-            Console.WriteLine(String.Format("Arredondado (três casas decimais): {0:F}", 53.234567));
-        
+            Console.WriteLine("Produtos:");
+            Console.WriteLine("{0}, cujo preço é ${1:F2}", produto1, preco1);
+            Console.WriteLine("{0}, cujo preço é ${1:F2}", produto2, preco2);
+            Console.WriteLine();
+            Console.WriteLine("Registro: {0} anos de idade, código {1} e gênero: {2}", idade, codigo,genero);
+            Console.WriteLine();
+            Console.WriteLine("Medida com oito casas decimais: {0:F8}", media);
+            Console.WriteLine("Arredondado (três casas decimais): {0:F3}", media);
+            Console.WriteLine("Separador decimal invariant culture: " + media.ToString("F3", CultureInfo.InvariantCulture));
 
         }
+        static void Exercicio02()
+        {
+            //Elabore um algoritmo que receba e calcule a idade média de 5 alunos.
+            int idade1, idade2, idade3, idade4, idade5, media;
+
+            Console.WriteLine("Qual a idade do 1º aluno: ");
+            idade1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Qual a idade do 2º aluno: ");
+            idade2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Qual a idade do 3º aluno: ");
+            idade3 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Qual a idade do 4º aluno: ");
+            idade4 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Qual a idade do 5º aluno: ");
+            idade5 = Convert.ToInt32(Console.ReadLine());
+            media = (idade1 + idade2 + idade3 + idade4 + idade5) / 5;
+            Console.WriteLine("A idade média dos alunos é: " + media); 
+
+        }
+       
     }
 }
