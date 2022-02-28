@@ -12,7 +12,9 @@ namespace Aula4
 
             //IFsimples();
             //IFElse();
-            IFElseIf();
+            //IFElseIf();
+            //Switch();
+            SwitchCase();
         }
 
         static void IFsimples()
@@ -97,6 +99,57 @@ namespace Aula4
                 Console.WriteLine("Boa tarde!");
             else
                 Console.WriteLine("Boa noite!");
+        }
+
+        static void Switch()
+        {
+            //SWITCH - chavear
+
+            Console.WriteLine("Qual a hora atual? ");
+            int hora = int.Parse(Console.ReadLine());
+
+            switch (hora) //int, string
+            {
+                case < 12: Console.WriteLine("Bom dia!"); break;
+                case < 18: Console.WriteLine("Boa tarde!"); break;
+                default: Console.WriteLine("Boa noite!"); break;
+            }
+        }
+        static void SwitchCase()
+        {
+            int tempo = 0;
+            char escolha;
+
+            Console.WriteLine("Campinas/SP a Maceió/AL");
+            Console.WriteLine("Escolha o transporte: [a]=Avião | [b]=Carro | [c]=Ônibus");
+
+            escolha = char.Parse(Console.ReadLine().ToLower()); //.ToLower()-> O que o usuário digitar muda para minúsculo.
+
+            switch (escolha)
+            {
+                case 'a': //Caso o valor da escolha for a.
+                    tempo = 3;
+                    break;
+                
+                case 'b':
+                    tempo = 60;
+                    break;
+                case 'c':
+                    tempo = 72;
+                    break;
+
+                default: 
+                    tempo = -1;
+                    break;
+            }
+            if (tempo < 0)
+            {
+                Console.WriteLine("Transporte indisponível");
+            }
+            else
+            {
+                Console.WriteLine("Para o transporte escolhido o tempo é: {0}", tempo);
+            }
         }
     }
 }
