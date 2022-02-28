@@ -14,7 +14,9 @@ namespace Aula4
             //IFElse();
             //IFElseIf();
             //Switch();
-            SwitchCase();
+            //SwitchCase();
+            //While();
+            DoWhile();
         }
 
         static void IFsimples()
@@ -151,5 +153,45 @@ namespace Aula4
                 Console.WriteLine("Para o transporte escolhido o tempo é: {0}", tempo);
             }
         }
-    }
+        static void While()
+        {
+            //WHILE = ENQUANTO;
+            int numero = int.Parse(Console.ReadLine());
+            int soma = 0;
+
+            while (numero != 0) //enquanto a condicao for TRUE, FAÇA o bloco de codigo.
+            {
+                soma = soma + numero;
+                numero = int.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("A soma dos valores é: {0}", soma);
+            Console.ReadLine(); //Esperar enter para a sair;   
+           
+        }
+
+        DoWhile()
+        { 
+            //DO WHILE 
+
+            int numero = 45;
+
+            do //faça
+            {
+                Console.WriteLine(numero);
+                ++numero; //1 por vez
+            }
+            while (numero <= 50); //enquanto o número for menor que 50 FAÇA. 
+
+            //OUTRO EXEMPLO DO WHILE
+
+            do 
+            {
+                Console.WriteLine("Digitar número: ");
+                numero = int.Parse(Console.ReadLine());
+                Console.WriteLine("O número digitado foi: {0}", numero);
+            }
+            while (numero != 10); 
+        }
+    }   
 }
