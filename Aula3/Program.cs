@@ -11,7 +11,8 @@ namespace Aula3
             
             //OperadorLogico();
             //EntradaDeDados();
-            SaidaDeDados();
+            //SaidaDeDados();
+            CondicaoIF();
         }
 
         static void OperadorLogico()
@@ -96,6 +97,18 @@ namespace Aula3
 
             //convertendo int para string.
             Console.WriteLine(saldo.ToString("F3")); //deixa com três casas e arredonda para cima
+        }
+        static void CondicaoIF()
+        {
+            //IF - SE
+            int x = 10;
+            Console.WriteLine("Bom dia!");
+
+            if (x != 5)//se a condição for verdadeira executa o bloco abaixo
+            {
+                Console.WriteLine("Boa tarde!");
+            }
+            Console.WriteLine("Boa noite!");
         }
     }
 }
