@@ -7,7 +7,8 @@ namespace ExerciciosAula4
         static void Main(string[] args)
         {
             //Exercicio01();
-            Exercicio02();
+            //Exercicio02();
+            Exercicio03();
         }
 
         static void Exercicio01()
@@ -66,6 +67,66 @@ namespace ExerciciosAula4
             }
 
             Console.WriteLine("O maior número é: {0}", maior);
+        }
+        static void Exercicio03()
+        {
+            /*
+                Uma empresa concederá um aumento de salário aos seus funcionários, variável de acordo com o cargo, conforme a tabela abaixo. Programa que lê o salário e o código do cargo de um funcionário e calcula o novo salário. Se o cargo do funcionário não estiver na tabela, ele recebe 40% de aumento.
+
+
+
+                 Código           Cargo              Aumento
+
+                    1              gerente             10%
+
+                    2              engenheiro          20%
+
+                    3              técnico             30%
+
+
+                No final é mostrado o salário antigo e o novo salário.
+
+            */
+            double salario, novoSalario;
+            int escolha;
+
+            Console.WriteLine("Digite o valor do seu salário: ");
+            salario = double.Parse(Console.ReadLine());
+            
+
+            Console.WriteLine("Escolha o cargo: [1]=gerente | [2]=engenheiro | [3]=técnico | [4]=outro");
+            escolha = int.Parse(Console.ReadLine()); 
+            if (escolha == 1)
+            {
+                novoSalario = salario + (salario * 0.1);
+                Console.WriteLine("O salário anterior é de {0:F2} e o salária atual é de {1:F2}", salario, novoSalario);
+            }
+
+            else if (escolha == 2)
+            {
+                novoSalario = salario + (salario * 0.2);
+                Console.WriteLine("O salário anterior é de {0:F2} e o salária atual é de {1:F2}", salario, novoSalario);
+            }
+
+            else if (escolha == 3)
+            {
+                novoSalario = salario + (salario * 0.3);
+                Console.WriteLine("O salário anterior é de {0:F2} e o salária atual é de {1:F2}", salario, novoSalario);
+            }
+
+            else if (escolha == 4)
+            {
+                novoSalario = salario + (salario * 0.4);
+                Console.WriteLine("O salário anterior é de {0:F2} e o salária atual é de {1:F2}", salario, novoSalario);
+            }
+
+            else
+            {
+                
+                Console.WriteLine("ERRO!");
+            }
+        
+            
         }
     }
 }
