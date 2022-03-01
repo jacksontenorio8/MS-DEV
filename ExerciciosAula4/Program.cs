@@ -6,7 +6,8 @@ namespace ExerciciosAula4
     {
         static void Main(string[] args)
         {
-            Exercicio01();
+            //Exercicio01();
+            Exercicio02();
         }
 
         static void Exercicio01()
@@ -38,6 +39,33 @@ namespace ExerciciosAula4
             }
 
 
+        }
+        static void Exercicio02()
+        {
+            //CRIE UM ALGORITMO QUE LÊ 3 NÚMEROS INTEIROS E RETORNE QUAL É O MAIOR
+
+            int numero=0, maior=0;
+
+            Console.WriteLine("Digite o 1º número: ");
+            numero = Convert.ToInt32(Console.ReadLine());
+            maior = numero;
+            Console.WriteLine("Digite o 2º número: ");
+            numero = Convert.ToInt32(Console.ReadLine());
+
+            if (numero > maior) 
+            {
+                maior = numero;
+            }
+
+            Console.WriteLine("Digite o 3º número: ");
+            numero = Convert.ToInt32(Console.ReadLine());
+
+            if (numero > maior)
+            {
+                maior = numero;
+            }
+
+            Console.WriteLine("O maior número é: {0}", maior);
         }
     }
 }
