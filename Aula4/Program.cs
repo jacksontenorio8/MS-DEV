@@ -16,7 +16,7 @@ namespace Aula4
             //Switch();
             //SwitchCase();
             //While();
-            DoWhile();
+            DOWhile();
         }
 
         static void IFsimples()
@@ -170,7 +170,7 @@ namespace Aula4
            
         }
 
-        DoWhile()
+        static void DOWhile()
         { 
             //DO WHILE 
 
