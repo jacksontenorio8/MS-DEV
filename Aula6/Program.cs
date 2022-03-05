@@ -6,7 +6,21 @@ namespace Aula6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Representação do mundo real.
+
+            //CLASSE / OBJETO => Físico / Abstrato.
+
+            //OO = POO = Programação Orientada a Objeto.
+
+            //Facilita o nosso entendimento, dividindo um programa em pequenas partes.
+
+            
+
+            //Uma Classe possui:
+
+            //propriedade (atribuições) / características.
+            //métodos (ações)
+            //eventos (o que é feito durante a ação)
         }
     }
 }
